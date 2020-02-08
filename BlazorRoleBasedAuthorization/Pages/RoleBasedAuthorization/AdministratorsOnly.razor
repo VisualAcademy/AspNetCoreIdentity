@@ -1,0 +1,9 @@
+﻿@page "/AdministratorsOnly"
+
+@attribute [Authorize(Roles = "Administrators")]
+
+<h3>Administrators Role Only</h3>
+
+@code {
+
+}
